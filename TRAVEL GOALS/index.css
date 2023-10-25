@@ -1,0 +1,104 @@
+#section1 {
+  height: 350px;
+  background-image: url(images/bora-bora.jpg);
+  background-position: center;
+  background-size: cover;
+  bottom: 20px;
+}
+
+#section1 h1 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  text-transform: capitalize;
+  margin: 0px;
+  font-family: "Young Serif", "Raleway", "Merriweather", sans-serif;
+  text-shadow: 2px, 4px, 8px, rgb(0, 0, 0);
+}
+#section1 p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 2px, 4px, 8px, rgb(0, 0, 0);
+  font-weight: 300px;
+  position: relative;
+  top: 5px;
+}
+#section1 a {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  box-shadow: 2px, 4px, 8px, rgb(12, 27, 0);
+  background-color: rgb(255, 251, 0);
+  border-radius: 35px;
+  text-decoration: none;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+  font-weight: bolder;
+}
+#section1-container a:hover{
+  background-color: rgb(248, 79, 0);
+}
+
+#section1-container {
+  width: 550px;
+  height: 140px;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 2px, 4px, 8px, rgb(0, 0, 0);
+  border-radius: 10px;
+  opacity: 0.8;
+  position: relative;
+  top: 150px;
+}
+.Destination img{
+  height: 200px;
+  width: 400px;
+  box-shadow: 2px 4px 8px rgb(1, 0, 17);
+  border-radius: 20px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-left: -30px;
+}
+
+.Destination{
+  margin: 0 20px;
+}
+
+#section2{
+  background: linear-gradient(360deg, rgb(201, 240, 233),  rgb(114, 234, 238));
+  padding: 20px;
+}
+
+#section2 ul{
+  display: flex;
+  margin: auto;
+  list-style: none;
+  justify-content: center;
+ 
+}
+#section2 p{
+  text-align: center;
+  color: rgb(5, 1, 14);
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.Destination strong{
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  font-family: "Young Serif" , Tahoma, Geneva, Verdana, sans-serif;
+}
+#section2 h2{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Young Serif" , Tahoma, Geneva, Verdana, sans-serif; 
+  color: rgb(0, 4, 56);
+}
